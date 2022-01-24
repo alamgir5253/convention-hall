@@ -1,0 +1,17 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+body {
+  font-family: "Bebas Neue", cursive;
+}
+.carousel-bg {
+ background: rgba(0, 0, 0, 0.794);
+  mix-blend-mode:overlay;
+}
