@@ -5,19 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* font-family: 'Bebas Neue', cursive;
-font-family: 'Montserrat', sans-serif; */
-body {
-  font-family: "Bebas Neue", cursive;
-}
-.carousel-bg {
- background: rgba(0, 0, 0, 0.794);
-  mix-blend-mode:overlay;
-}
 .custom-position{
 position: relative;
 }
+/* our package section hot deal  */
 .hot-deal{
   position: absolute;
   top: -20px;
@@ -27,6 +18,7 @@ position: relative;
   padding: 10px 30px;
   text-transform: uppercase;
 }
+/* our packages section toaster */
 .toaster-parent{
   position: relative;
 }
@@ -36,7 +28,6 @@ position: relative;
   right:0;
   z-index: 1;
 }
-
 .toast-after{position: relative;}
 .toast-after::after{
   content: "";
@@ -46,14 +37,12 @@ position: relative;
   left: 0;
   height: 100%;
   width: 5px;
-  
   background:#12cbc4;
-
 }
-
+/* contact us section background */
 .contact-bg{
   background-image: url(../resources/orhers-img/contact-bg.jpg);
-  background-position: right center;
+  background-position:right center;
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -61,6 +50,7 @@ position: relative;
   width: 500px;
   margin: auto;
 }
+
 footer{
   background: #000;
   color: #fff;
@@ -68,7 +58,6 @@ footer{
 
 /* media query for input */
 @media only screen and (max-width: 600px) {
-  
   .contact-input{
     width: 100%;
   }
