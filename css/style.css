@@ -38,6 +38,10 @@ position: relative;
   width: 500px;
   margin: auto;
 }
+footer{
+  background: #000;
+  color: #fff;
+}
 
 /* media query for input */
 @media only screen and (max-width: 600px) {
