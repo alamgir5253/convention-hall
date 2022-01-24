@@ -35,6 +35,14 @@ position: relative;
   background-size:cover;
 }
 .contact-input{
-  width: 300px;
+  width: 500px;
   margin: auto;
+}
+
+/* media query for input */
+@media only screen and (max-width: 600px) {
+  
+  .contact-input{
+    width: 100%;
+  }
 }
