@@ -27,6 +27,29 @@ position: relative;
   padding: 10px 30px;
   text-transform: uppercase;
 }
+.toaster-parent{
+  position: relative;
+}
+.toaster-position{
+  position: absolute;
+  top: 0;
+  right:0;
+  z-index: 1;
+}
+
+.toast-after{position: relative;}
+.toast-after::after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  
+  background:#12cbc4;
+
+}
 
 .contact-bg{
   background-image: url(../resources/orhers-img/contact-bg.jpg);
