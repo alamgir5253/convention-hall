@@ -15,3 +15,26 @@ body {
  background: rgba(0, 0, 0, 0.794);
   mix-blend-mode:overlay;
 }
+.custom-position{
+position: relative;
+}
+.hot-deal{
+  position: absolute;
+  top: -20px;
+  right: 60px;
+  background: #000;
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.contact-bg{
+  background-image: url(../resources/orhers-img/contact-bg.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.contact-input{
+  width: 300px;
+  margin: auto;
+}
